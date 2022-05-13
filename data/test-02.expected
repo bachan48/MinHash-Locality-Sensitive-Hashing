@@ -1,0 +1,24 @@
+Computing similarity with parameters: 
+    Filename: data/articles_1000.txt
+    Separator: [ ]
+    Minimum similarity: 0.8
+    Shingle size: 3
+    Hash count: 100
+    Band size: 4
+    Compute Jaccard similarity: true
+    Compute all minHashes similarity: true
+    Print hash coefficients: false
+
+Pair                     Jaccard              minHash                  lsh
+--------------------------------------------------------------------------
+t1088,t5015              0.98054              0.98000              0.92000
+t1297,t4638              0.98062              0.98000              0.92000
+t1768,t5248              0.98031              0.99000              0.96000
+t1952,t3495              0.97844              0.96000              0.84000
+t2023,t980               0.97916              0.98000              0.92000
+t2535,t8642              0.98106              0.99000              0.96000
+t2839,t9303              0.98214              0.97000              0.88000
+t2957,t7111              0.98168              0.95000              0.80000
+t3268,t7998              0.97716              0.96000              0.84000
+t3466,t7563              0.98134              1.00000              1.00000
+--------------------------------------------------------------------------
